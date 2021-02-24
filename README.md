@@ -7,3 +7,27 @@ It will be updated soon~
 ## Downloading datasets
 To download the CHAOS dataset from [the CHAOS challenge website](https://chaos.grand-challenge.org/Download/) 
 Then, you need to create a folder structure as described.
+## Training networks
+To train TarGAN on CHAOS, run the training script below. 
+
+```bash
+# Train TarGAN using the CHAOS dataset
+
+# Test TarGAN using the CHAOS dataset
+
+```
+
+To train TarGAN on your own dataset, create a folder structure in the same format as and run the command:
+
+```bash
+# Train TarGAN on custom datasets
+
+# Test TarGAN on custom datasets
+
+```
+## Using pre-trained networks
+To download a pre-trained model checkpoint, run the script below. The pre-trained model checkpoint will be downloaded and saved into `./pre-trained/models` directory.
+
+```bash
+
+```
