@@ -243,7 +243,6 @@ if __name__ == '__main__':
     parser.add_argument('-note', type=str,default='affine:True;')
     parser.add_argument('-random_seed', type=int, default='888')
     parser.add_argument('-c_dim', type=int, default='3')
-    parser.add_argument('-iter', type=int, default='1')
     parser.add_argument('-h_conv', type=int, default='16')
     parser.add_argument('-G_conv', type=int, default='64')
     parser.add_argument('-betas', type=tuple, default=(0.5, 0.9))
