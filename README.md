@@ -38,10 +38,3 @@ python train.py -datasets chaos -save_path yours -epoch 50\
                -c_dim 3 -batch_size 4 -lr 1e-4 -ttur 3e-4\
                -random_seed 666
 ```
-
-## Using pre-trained networks
-To download a pre-trained model checkpoint, run the script below. The pre-trained model checkpoint will be downloaded and saved into `./pre-trained/models` directory.
-
-```bash
-
-```
