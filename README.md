@@ -34,9 +34,9 @@ To train TarGAN on CHAOS, run the training script below.
 
 ```bash
 # Train TarGAN using the CHAOS dataset
-
-# Test TarGAN using the CHAOS dataset
-
+python train.py -datasets chaos -save_path yours -epoch 50\
+               -c_dim 3 -batch_size 4 -lr 1e-4 -ttur 3e-4\
+               -random_seed 666
 ```
 
 ## Using pre-trained networks
