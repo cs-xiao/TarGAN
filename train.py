@@ -1,7 +1,7 @@
-from open.models import Generator,Discriminator,ShapeUNet
-from open.data_loader import *
+from models import Generator,Discriminator,ShapeUNet
+from data_loader import *
 from torch.utils.data import DataLoader
-from open.utils import *
+from utils import *
 import argparse
 import time
 import matplotlib.pyplot as plt
