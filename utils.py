@@ -59,12 +59,6 @@ def gradient_penalty(y, x, device):
 
 
 def save_state_net(net, parameters, index, optim=None, parents_root='../checkpoints/MICCAI2021'):
-    """
-    :param net: 网络模型
-    :param parameters: 实验参数
-    :param parents_root: 根目录
-    :return:
-    """
     save_path = os.path.join(parents_root, parameters.save_path)
     if not os.path.isdir(save_path):
         os.mkdir(save_path)
