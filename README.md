@@ -1,5 +1,5 @@
 # TarGAN
-It will be updated soon~
+
 ## Dependencies
 * [Python 3.7+](https://www.python.org/downloads/)
 * [PyTorch 1.6.0+](http://pytorch.org/)
