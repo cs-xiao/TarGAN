@@ -1,6 +1,8 @@
 # TarGAN
 PyTorch implementation of the MICCAI 2021 paper "TarGAN: Target-Aware Generative Adversarial Networks for Multi-modality Medical Image Translation".
 (It will be updated soon~)
+<p align="center"><img width="100%" src="images/framework.jpg" /></p>
+
 ## Dependencies
 * [Python 3.7+](https://www.python.org/downloads/)
 * [PyTorch 1.6.0+](http://pytorch.org/)
